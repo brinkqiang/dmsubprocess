@@ -26,6 +26,5 @@ dmsubprocess
 ```cpp
 ```
 ## Contacts
-[![Join the chat](https://badges.gitter.im/brinkqiang/dmsubprocess/Lobby.svg)](https://gitter.im/brinkqiang/dmsubprocess)
 
 ## Thanks
