@@ -22,18 +22,6 @@
 #ifndef __DMSUBPROCESS_H_INCLUDE__
 #define __DMSUBPROCESS_H_INCLUDE__
 
-#include "dmos.h"
+#include "subprocess.h"
 
-class Idmsubprocess
-{
-public:
-    virtual ~Idmsubprocess(){}
-    virtual void DMAPI Release(void) = 0;
-	
-    virtual void DMAPI Test(void) = 0;
-};
-
-Idmsubprocess* DMAPI dmsubprocessGetModule();
-
-typedef Idmsubprocess* (DMAPI* PFN_dmsubprocessGetModule)();
 #endif // __DMSUBPROCESS_H_INCLUDE__
